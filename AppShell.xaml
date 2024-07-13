@@ -3,9 +3,9 @@
     x:Class="TrabajoMVVM.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:TrabajoMVVM"
-    Shell.FlyoutBehavior="Disabled"
-    Title="TrabajoMVVM">
+    xmlns:views="clr-namespace:TrabajoMVVM.Views"
+    Shell.FlyoutBehavior="Disabled">
+
     <TabBar>
         <ShellContent
             Title="Notes"
@@ -17,4 +17,5 @@
             ContentTemplate="{DataTemplate views:AboutPage}"
             Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
     </TabBar>
+
 </Shell>

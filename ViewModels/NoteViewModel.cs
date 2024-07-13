@@ -2,7 +2,7 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using System.Windows.Input;
 
-namespace Notes.ViewModels;
+namespace TrabajoMVVM.ViewModels;
 
 internal class NoteViewModel : ObservableObject, IQueryAttributable
 {

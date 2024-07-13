@@ -1,9 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.Input;
-using Notes.Models;
+using TrabajoMVVM.Models;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 
-namespace Notes.ViewModels;
+namespace TrabajoMVVM.ViewModels;
 
 internal class NotesViewModel : IQueryAttributable
 {

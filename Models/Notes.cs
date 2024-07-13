@@ -1,4 +1,4 @@
-﻿namespace Notes.Models;
+﻿namespace TrabajoMVVM.Models;
 
 internal class Note
 {

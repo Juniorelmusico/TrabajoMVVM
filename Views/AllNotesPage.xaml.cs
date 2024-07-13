@@ -1,4 +1,4 @@
-namespace Notes.Views;
+namespace TrabajoMVVM.Views;
 
 public partial class AllNotesPage : ContentPage
 {
